@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: rgb(86, 46, 46);
+
+    display: grid;
+    grid: 
+    "header header header header" auto
+    "....... list active ......." auto /
+    1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
+
+
+}

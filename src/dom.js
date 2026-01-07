@@ -1,0 +1,1 @@
+export const taskListCont = document.querySelector('task-list');
